@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b4001b-e350-4515-b822-b40a531785c8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>mongoproject.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>mongoproject</Name>
     <RootNamespace>mongoproject</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,7 +25,6 @@
     <Compile Include="main.py" />
     <Compile Include="Menu.py" />
     <Compile Include="menu_definitions.py" />
-    <Compile Include="mongoproject.py" />
     <Compile Include="Option.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
